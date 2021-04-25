@@ -1,10 +1,8 @@
 import requests
 from colorama import init, Fore
-from easygui import fileopenbox
 from requests import Session, exceptions
 import subprocess, requests, time, os
 from os import system, name 
-import configparser
 import time
 import os
 from colorama import init, Fore, Back, Style
